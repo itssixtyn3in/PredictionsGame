@@ -43,7 +43,6 @@ func main() {
 
 		// Conditionally execute a command
 		if answer == "i don't think so" {
-			fmt.Println("Executing command...")
 			utilities.ExecuteCommand()
 		}
 	}
